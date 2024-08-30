@@ -1,0 +1,63 @@
+
+
+main{
+    display: flex;
+    
+}
+#tables{
+
+    background-color: rgba(0, 0, 0, 0.45);
+    
+    border-radius: 8px;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding:0.3em;
+    padding:2%;
+    margin:2%;
+    flex:1;
+   
+   
+    
+}
+.infodiv{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#menu{
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    border-radius: 8px;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding:0.3em;
+    
+    flex:2.5;
+    flex-shrink: 1;
+    padding:2%;
+    margin:2%;
+    height:82vh;
+    overflow-y: scroll;
+}
+.items{
+    background-color: rgba(255,255,255,0.45);
+    border:0;
+    border-radius: 8px;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+    padding:0.3em;
+    margin:1em 0;
+}
+
+.table{
+    background-color: rgba(255,255,255,0.45);
+    
+    border-radius: 8px;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding:0.3em;
+    margin:1em 0;
+    cursor:pointer;
+}
+.table.hovered {
+    background-color: #f0f0f0;
+}
