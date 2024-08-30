@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const items = document.querySelectorAll('.items');
     const tables = document.querySelectorAll('.table');
 
-    // Handle drag start for menu items
+    
     items.forEach(itm => {
         itm.setAttribute('draggable', true);
 
@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
         itm.addEventListener('click', () => {
             showMenuPopup(itm);
         });
+        
     });
 
-    // Handle table dragover, dragleave, and drop events
+    // Handle table dragover, dragleave, and drop
     tables.forEach(table => {
         table.addEventListener('dragover', (e) => {
             e.preventDefault();
